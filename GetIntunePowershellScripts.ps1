@@ -1,4 +1,7 @@
-﻿#Get Graph API Intune Module
+#Enable Scripts
+set-executionpolicy remotesigned
+
+#Get Graph API Intune Module
 Install-Module -Name Microsoft.Graph.Intune
 Import-Module Microsoft.Graph.Intune -Global
 
